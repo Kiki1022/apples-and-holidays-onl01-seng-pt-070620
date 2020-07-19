@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
    binding.pry
    array = holiday.to_s.split("_")
     holiday_array = array.collect {|word|word.capitalize }
+    holiday_capitalize = 
                 puts "  #{holiday.capitalize}: #{supplies.join(", ")}"  
     end
   end

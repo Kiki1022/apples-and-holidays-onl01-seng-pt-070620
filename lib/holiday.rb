@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     binding.pry
     puts "#{season.capitalize}:" 
     
-                puts "#{key2.capitalize}: #{value2}"  
+                puts "#{holiday.capitalize}: #{supples}"  
     end
   end
 end

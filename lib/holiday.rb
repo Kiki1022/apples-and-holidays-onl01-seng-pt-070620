@@ -65,11 +65,8 @@ def all_supplies_in_holidays(holiday_hash)
     
     puts "#{key.capitalize}: 
                 {#key2.capitalize}: {#value2}"  
-        
     end
-                           
   end
-
 end
 
   # iterate through holiday_hash and print items such that your readout resembles:
